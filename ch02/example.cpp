@@ -7,5 +7,4 @@ int main()
 {
 	int	i;
 
-	}
 } 
