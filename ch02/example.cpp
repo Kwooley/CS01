@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	double	tax = 0.0675;
-	double	tip = 0.2;
+	const double	TAX = 0.0675;
+	const double	TIP = 0.2;
 	double	taxAmount,
 		tipAmount,
 		totalBill;
@@ -13,8 +13,8 @@ int main()
 	// git stage changed
 	double 	mealCharge = 88.67;
 	
-	taxAmount = mealCharge * tax;
-	tipAmount = (mealCharge + taxAmount) * 0.2;
+	taxAmount = mealCharge * TAX;
+	tipAmount = (mealCharge + taxAmount) * TIP;
 
 	totalBill = mealCharge + taxAmount + tipAmount;
 
