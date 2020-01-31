@@ -10,7 +10,7 @@ int main()
 	double taxAmount,
 	    	tipAmount,
 	    	totalBill;
-
+	
 	double mealCharge = 88.67;
 
 	//? Calcualation total Bill
