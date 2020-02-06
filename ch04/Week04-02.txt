@@ -1,0 +1,44 @@
+⬜️ Summary of the last week
+        [1] Compliation Process
+                The purpose of compilation Process    
+                        ; Getting the executable code
+                        . a.out or filename.exe 
+        . 4 Components of Compiler
+
+                [Step 1]
+                Source code -> Pre-processor -> Pre-processed 
+                (filename.cpp)                   (filename.i)
+                       $ g++ -E filename.cpp 
+                [Step 2]
+                Pre-processed file -> Compiler -> Assembly file
+                (filename.i)                      (filename.s)
+                       $ g++ -S filename.i 
+                [Step 3] 
+                Assembly file -> Assembler -> Object code
+                (filename.s)                    (filename.o)
+                        $ g++ -c filename.s 
+                [Step 4]
+                Object Code -> Linker -> Executable code
+                (filenname.o)           ( a.out or filename.exe) 
+        . Interpreter vs compiler.
+
+        [2] Program Design
+                Process of Program Development
+                (1) Figure out Input/Output 
+                (2) Variable Decalration
+                        Naming, Data Type, Const 
+                (3) Devise the programming logic (calcution expression)
+                (4) Print out the result
+
+Today's Learning Outcome
+        Chapter 4. Making Decision
+                - if statement
+        4.1 Relational Operators
+                <, >, >= , <= , !, != 
+        4.2 if statement       
+                . Basic Structure
+                . Truth value
+                . Compound statement
+        4.3 else statement
+        4.4 nested if statement 
+        
