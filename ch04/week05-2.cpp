@@ -6,35 +6,28 @@ using namespace std;
 
 int main()
 {
+        //* Convert the lower-case character to the upper-case
+        //* Convert the upper-case character to the lower-case
 
-        //* program that check the (x,y) has n_th quadrant
-        int     x, y;
-        int     q;
-        cout << "Enter the your (x,y) \n";
-        cin >> x >> y;
+        char    c;
+        cout << "Enter your character\n";
+        cin >> c;   //?  B : 66
+
+        //* Input validation
+        //* if the char val is not in the range 'a' to 'z' or 'A' to 'Z'
+        //*   exit(0)
+
+        if  ( ((c >= 'a') && (c <= 'z'))  ||  (( c >= 'A') && (c <='Z')) )
+        {
+                 //* Convert to lower or upper
+               if ((c >= 'a') && (c <= 'z'))
+                        c -= 'a' - 'A';
+               else if ((c >= 'A') && (c <= 'Z'))
+                        c += 'a' - 'A';
+                //* Print the result
+                cout << " your converted chars is " << c << endl;
+        }
        
-        if (( x > 0) && (y>0)) 
-                q = 1;
-        else if (( x < 0) && (y>0)) 
-                q = 2 ;
-        else if (( x < 0) && (y<0)) 
-                q = 3 ;
-        else    
-                q = 4;
-
-        if (x>0)
-                if ( y > 0)
-                        q = 1;
-                else
-                        q = 4;
-        else
-                if (y > 0)
-                        q = 2;
-                else
-                        q = 3;
-
-        cout << x << "," << y << " is in " << q <<"th quadrant\n";
-
 }
 
 
