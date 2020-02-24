@@ -6,17 +6,32 @@ using   namespace       std;
 
 int main()
 {
-        //* Power numbers to 2
+        //* Check the number is prime number or not.
+        //? Prime Number
+        //*     1) greater than 1
+        //*     2) cannot be formed by multiplication
+        //*                     by other numbers
 
-        //* 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024
+        //* When we divide by the numbers
+        //*             from 0 to the number itself
+        //* the remainer is always not 0.
 
-        int i, powernum;
+        int     i, number, flag;
 
-        i = 0; powernum = 1;
-        while( i++ < 10)
+        cout << "Enter your number \n";
+        cin >> number;
+
+        i = 2;
+        flag = 0;
+        while ( i < number)
         {
-                powernum = powernum * 2;
-                cout << "Power number to 2 " << i  
-                        << " is " << powernum << endl;
+                if ( ( number % i ) == 0) 
+                      flag = 1;
+                i++;
         }
+
+        if (!flag)
+                cout << "The number is Prime number "
+                                << number << endl;
+
 }
