@@ -8,11 +8,12 @@ int main()
         int     sum=0, i=0, usernum;
 
         i = 0;
-        while ( i < 5)
+        while ( i++ < 5)
         {
                 cout << "Enter user num\n";
                 cin >> usernum;
-                sum += usernum;
+                if ( usernum % 2 == 0) 
+                        sum += usernum;
         }
         cout << " Summation result is " << sum << endl;
 
