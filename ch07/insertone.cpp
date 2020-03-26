@@ -37,12 +37,12 @@ void    insertOne(int *arr, int input, int *length)
                 break;
         }
         for(j= *length-1; j>=i; j--){
-            arr[j+1] = arr[j]; 
+            *(arr+j+1) = *(arr+j); 
         }
         arr[i] = input;
         *length += 1;
         for(i=0; i<*length; i++)
-             cout << arr[i] << " ";
+             cout << *(arr+i) << " ";
         cout << endl;
         return;
 }
