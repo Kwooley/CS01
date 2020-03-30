@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int     localmain;
+    int     localmain=10;
     int     i;
     int     j;
     
@@ -12,7 +12,7 @@ int main()
     j = 30;
 
     if ( 1 ){
-        int localif;
+        int localif=100;
         int i;
         i = 20;
         cout << "The value i " << i << endl;
@@ -21,4 +21,5 @@ int main()
     }
 
     cout << "The value i " << i << endl;
+    //* Can we access the variable "localif" in the if block? Why? 
 }
