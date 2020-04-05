@@ -32,7 +32,7 @@ int	 	makearray(int	number[])
 		srand(time(NULL));
 		do {
 			last = rand() % 20 ;
-		} while (last < 10);
+		} while (last < 10 );
 
 		for(int i=0; i<last; i++)
 			number[i] = rand() % 100;

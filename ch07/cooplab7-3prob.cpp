@@ -49,16 +49,10 @@ void	swapfold(int number[], int last)
 }
 void	sumfold(int number[], int last)
 {
-		for(int i=0; i<last/2; i++)
-			number[i] += number[last-i-1];
+		
 }
 void	equalfold(int number[], int equal[], int last)
 {
-		int i;
-		for(i=0; i<last/2; i++)
-			equal[i] = (number[i] == number[last-i-1])? 1 : 0 ;
-		if (last % 2 )
-			equal[i] = 0;
 }
 
 int	 	makearray(int	number[])
