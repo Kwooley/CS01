@@ -1,5 +1,5 @@
 #include		<iostream>
-#include		<fstream>
+#include		<iomanip>
 using namespace std;
 
 int			findcross(int [][10]);
