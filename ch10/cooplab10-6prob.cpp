@@ -30,51 +30,11 @@ int main()
 }
 int     constructRecord()
 {
-        ifstream    ifs;
-        string      readline, splitstr;
-        int         idx=0, fieldidx, start, commaposition;
-        ifs.open("allstate.txt");
-        if (!ifs) {
-            cout << "Fine Open Error\n";
-            exit(0);
-        }
-        while ( ifs >> readline){
-            start = 0; 
-            fieldidx = 0;
-            while ( (commaposition = readline.find(',', start)) != string::npos){
-                splitstr = readline.substr(start, commaposition-start);
-                start = commaposition + 1;
-                switch (fieldidx) {
-                    case 0:
-                        stname[idx] = splitstr;
-                        break;
-                    case 1:
-                        gender[idx] = splitstr[0]; //* Becuase the gender[i] is char
-                        break;
-                    case 2:
-                        year[idx] = stoi(splitstr);
-                        break;
-                    case 3:
-                        name[idx] = splitstr;
-                        break;
-                    default:
-                        cout << "Field Index Error\n";
-                        exit(0);
-                }
-                fieldidx += 1;
-            }
-            splitstr = readline.substr(start, readline.size()-start+1);
-            cnt[idx] = stoi(splitstr);
-            idx += 1;
-        }
-        return idx;
+     
 }
 void    retrieveRecord(int useryear, string userstate)
 {
-        for(int i=0; i<Numrecord; i++){
-            if ( year[i] == useryear && stname[i] == userstate)
-                    printRecord(i);
-        }
+  
 }
 void    printRecord(int idx)
 {
