@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	
 	string 	str1("Programming");
 	string::iterator it;
 	for(int i=0; i<str1.length(); i++)
