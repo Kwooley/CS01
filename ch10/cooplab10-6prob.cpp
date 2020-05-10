@@ -70,7 +70,7 @@ int     constructRecord()
             cnt[idx] = stoi(splitstr);
             idx += 1;
         }
-     
+    return idx;
 }
 void    retrieveRecord(int useryear, string userstate)
 {
