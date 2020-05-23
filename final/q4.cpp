@@ -28,22 +28,12 @@ int     converthextodec(char hex[])
         else  {
             switch(hex[strlen(hex)-i-1]){
                 case 'A':
-                    num = 10;
-                    break;
                 case 'B':
-                    num = 11;
-                    break;
                 case 'C':
-                    num = 12;
-                    break;
                 case 'D':
-                    num = 13;
-                    break;
                 case 'E':
-                    num = 14;
-                    break;
                 case 'F':
-                    num = 15;
+                    num = hex[strlen(hex)-i-1]-'A'+10;
                     break;
                 default:
                     cout << "Convert Error\n";
