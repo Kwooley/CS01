@@ -51,7 +51,10 @@ int     main()
                 exit(0);
         }
         
-        price = (distance / 500.0) * dRate;
+        if ( distance < 500)
+                price = dRate;
+        else 
+                price = (distance / 500.0) * dRate;
         cout << "The shipping price for package is " << price << endl;
 
 }
