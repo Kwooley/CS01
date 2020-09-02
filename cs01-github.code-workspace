@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.zoomLevel": 0,
+		"better-comments.multilineComments": true,
+		"better-comments.highlightPlainText": true,
+		"better-comments.tags": [
+			{
+			  "tag": "!",
+			  "color": "#FF2D00",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "?",
+			  "color": "#3498DB",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "//",
+			  "color": "#82BCA1",
+			  "strikethrough": true,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "todo",
+			  "color": "#FF8C00",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "*",
+			  "color": "#98C379",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			}
+		],
+		"files.associations": {
+			"ostream": "cpp",
+			"ios": "cpp",
+			"iostream": "cpp",
+			"iomanip": "cpp",
+			"cmath": "cpp",
+			"iosfwd": "cpp",
+			"vector": "cpp",
+			"istream": "cpp",
+			"bitset": "cpp"
+		},
+		"C_Cpp.clang_format_fallbackStyle": 
+			"{ BasedOnStyle: Google, IndentWidth: 8, ColumnLimit: 0}"
+	}
+}
