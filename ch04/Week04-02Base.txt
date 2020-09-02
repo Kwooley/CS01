@@ -1,0 +1,43 @@
+⬜️ Summary of the last week
+
+        [1] Compilation Process
+                . the purpose of compile Process   
+                        - to get an executable code.
+        
+                . 4 components
+                                source file (source.cpp)
+                        pre-processor ( g++ -E source.cpp)
+                                pre-processed file (source.i)
+                        compiler (g++ -S source.i)
+                                assembly file(source.s)
+                        assembler (g++ -c source.o)
+                                object-code(source.o)
+                        linker(g++ source.o)
+                                executable file
+        [2] Program Design
+                . Process of the development of Program
+                        [Step 1]
+                                Design the I/O 
+                        [Step 2]
+                                Variable Declarations
+                                        Naming, Data Type, Const 
+                        [Step 3]
+                                Devise the programming logic (Calculation)
+                        [Step 4]
+                                Print out the results
+                . Draw the Flow Chart
+
+⬜️ Today's Learning Outcome
+
+        Chapter 4. Making Decision
+                4.1 Relational Operators
+                        <, >, >=, <=, !, != 
+                4.2 if statement
+                        . Basic structure
+                        . Truth value (1,0)
+                        . Comparing the floating point values
+                        . Braces
+                                - compound statements
+                4.4 else statement
+                4.5 nested if statement
+

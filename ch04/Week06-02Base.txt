@@ -1,0 +1,48 @@
+
+⬜️ Summary of the Last Week
+        Chapter 4. Making Decision
+                . if/else 
+                . nested if
+                . if/else if/
+                . conditional operator
+                . switch
+
+⬜️ Examples 
+[Ex1] Make the program that shows the number of digits for the given user input.
+- User input should be a integer value between 0 to 30,000.
+        if ( usernum / 10000 > 0)
+                digits = 5;
+        else if ( usernum / 1000 > 0)
+                digits = 4;
+        else if ( usernum / 100 > 0)
+                digits = 3;
+        else if (usernum / 10 > 0)
+                digits = 2;
+        else    
+                digits = 1;
+[Ex2] Make the program that find the largest number among three random numbers.
+- The random numbers must be in [0..99]
+        if (rdnum1 < rdnum2)
+                if ( rdnum2 < rdnum3)
+                        maxnum = rdnum3;
+                else
+                        maxnum = rdnum2;
+        else
+                if (rdnum1 < rdnum3)
+                        maxnum = rdnum3;
+                else
+                        maxnum = rdnum1;
+
+[Ex3] Make the program that 
+        calculates the circle, rectangle, and triangle area according to the user input.
+        User input 1 : 
+                Calculate the circle area. 3.14 x radius x radius
+        User input 2 : 
+                Calculate the rectangle area. height x width
+        User input 3 :
+                Calculate the triangle area. height x width x 0.5
+        User input 4 :
+                quit the program.
+        
+
+

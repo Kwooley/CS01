@@ -1,0 +1,38 @@
+⬜️ Summary of the last week
+
+        5.6 for-loop
+
+        Difference between while-loop and for-loop.
+        example 1.
+                . converting to the for-loop
+                i = 0;
+                while ( i < 10 ) {
+                        cout << i << endl; 
+                        i++;
+                }
+                for (i=0; i < 10 ; i++)
+                        cout << i << endl; 
+        example 2.
+                // while loop : read the user input until the number is -1.
+                // We cannot expect the iteration count.
+                cout << "Enter the usernum \n"; 
+                cin << usernum; 
+                while (usernum != -1) {
+                        cout << usernum << endl; 
+                        cout << "Enter the usernum \n"; 
+                        cin << usernum;
+                }
+
+                cout << "Enter the usernum \n"; 
+                cin << usernum; 
+                for(; usernum != -1; ) {
+                        cout << usernum << endl; 
+                        cout << "Enter the usernum \n"; 
+                        cin << usernum;
+                }
+
+        Lab 5-7/5-8.
+
+⬜️ Today's Learning Outcome
+
+        5.10 Nested for-loop

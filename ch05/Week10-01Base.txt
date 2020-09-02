@@ -1,0 +1,33 @@
+⬜️ Summary of the Last week
+
+    - Quizes Solution ; https://github.com/kwooley/cs01
+
+    . Alignment with indentation 
+        block : The inner block should have more indentation(tab key)
+        - Without the alignment, more ambiguity and poor readability
+        - In Python,
+            there is no brace for block.
+    
+    . for(i=0; i<10; i++)
+        after for loop, the value i ?
+        . delaclaration for temprary variable
+    
+    . Variable Declaration inside the block
+
+    - for, while, do-while loop structures
+
+⬜️ Today's Learning Outcome.
+
+    - Basic File I/O Operations.
+    
+    - Header file  <fsream>
+    - Class  
+        . ifstream, ofstream
+        . member functions
+    
+    - File Access
+        . create file object
+        . Open 
+        . Writing to file
+        . Reading from file
+

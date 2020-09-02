@@ -1,0 +1,32 @@
+⬜️ Summary of the last class
+
+    nested-loop.
+    . Alignment with indentation 
+        block : The inner block should have more indentation(tab key)
+        - Without the alignment, more ambiguity and poor readability
+        - In Python,
+            there is no blcok brace.
+    . for(i=0; i<10; i++)
+        after for loop, the value i ?
+        . delaclaration for temprary variable
+    . nested for loop example
+        2 Classes for CS : 
+                    CS01 -  V01, Prof. Carlos, 30
+                            V02, Prof, Carlos, 29
+                            V03, Prof, Mark, 27
+                            V04, Prof, Lee, 26
+                    CS02 -  V01, Prof. Bill 30
+                            V02, Prof. Carlos 30
+                            V03, Prof, Mark, 27
+                            V04, Prof, Bill, 26
+       0123456789
+       **********
+       *********
+       ********
+       *******
+       ******
+       *****
+       ****
+       ***
+       **
+       *

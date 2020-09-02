@@ -1,0 +1,36 @@
+
+⬜️ Summary of the Last Class
+
+        5.1  ++, -- operators
+        5.2  while loop
+                = Pre-test loop. 
+                        The condition is tested before the iteration body
+                        . It could make 0 iteration
+        5.5 do-while 
+                - post-test loop        
+                        . the condition is tested after the iteration
+                        . There is at least 1 iteration(without condition test)
+
+⬜️ Today's Learning Outcome
+
+        Examples 
+                - Power Numbers to 2
+                - Prime Number Check
+                - Summation
+                        . for the fixed range from 0 to N 
+                        . multiple user inputs
+                        . the given user range
+
+                - Find the min and max 
+                        . among the user inputs
+                        . among the random Numbers
+                
+                - Get the number of integers thar are satisfied with the certain condition
+                        . the number of even Numbers
+                        . the numbers are coming with increasing order
+
+                        
+        5.6 5.7, 5.8  for-loop  
+                        . Pre-test loop
+                        . counter-controlled loop.
+                

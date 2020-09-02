@@ -1,0 +1,15 @@
+
+⬜️ Today's Plan
+
+    - Programming Lab 5-16
+        File Operations
+
+        Student Records Management Programming  
+    
+
+    - Chapter 6. Functions
+        Function Declarations
+            - return type
+            - function prototype
+            - parameters
+            - arguments

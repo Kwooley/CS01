@@ -1,0 +1,30 @@
+☐ A summary of the last week
+
+Chapter 4. Making Decisions
+
+4.1 Relational Operators
+        >, <, , >= , <= , 
+4.2 if statement
+        if (  condition )
+        {
+                statement; 
+        }
+4.3 else statement
+        if (condition) {
+                / * statement 1 */
+        }
+        else {
+                /* statement 2 */ 
+        }
+
+[Ex 1] Make a program that check the user input is odd or even number
+[Ex 2] Make a program that check the sum of all user input is positive
+
+Today's Learning Outcome
+4.5 nested if statement
+4.6 else if statement
+4.7 flag concept
+4.8 logical Operators
+        and, or, negation
+        &&, || , !
+

@@ -1,0 +1,29 @@
+
+⬜️ Quiz 2 Solution Files
+
+        https://github.com/kwooley/cs01/quiz2
+
+
+⬜️ Today's Leaning Outcome
+
+        Chapter 5. Loop and Files
+
+        5.1 Increment and Decrement Operators
+                ++, --
+        5.2, 5.3, 5.4 While Loop
+        
+        - Basic While-loop structure
+        - Examples
+                Printing all ACSII codes (0-127)
+                Input Validation
+                Power Number to N
+                Prime Number
+                        is the number that
+                                1) greater than 1
+                                2) cannot be formed by multiplation by other numbers.
+                        In other words,
+                                When we divide by the numbers from 0 to the number itself,
+                                the remainder is always not 0 except 1 and the number itself.
+                        
+        5.5 Do-While Loop
+
