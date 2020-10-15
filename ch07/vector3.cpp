@@ -1,6 +1,7 @@
 #include		<iostream>
 #include		<iomanip>
 #include		<vector>
+#include 		<algorithm>
 using namespace	std;
 
 int	main()
@@ -10,6 +11,9 @@ int	main()
 	for(int i=0; i < number.size(); i++) {
 		cout << "Enter your number. \n";
 		cin	>> number[i];
+	}
+	for(int val : number) {
+		cout << val << endl;
 	}
 
 	for(int &val : number) {
