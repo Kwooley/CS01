@@ -1,83 +1,118 @@
 {
-        "version": "2.0.0",
-        "tasks": [
-                {
-                        "type": "shell",
-                        "label": "g++ build active file 1",
-                        "command": "/usr/bin/g++",
-                        "args": [
-                                "${file}",
-                                "-std=c++11",
-                                "-o",
-                                "${fileDirname}/${fileBasenameNoExtension}"
-                        ],
-                        "options": {
-                                "cwd": "/usr/bin"
-                        },
-                        "problemMatcher": [
-                                "$gcc"
-                        ],
-                        "group": {
-                                "kind": "build",
-                                "isDefault": true
-                        }
-                },
-                {
-                        "type": "shell",
-                        "label": "cpp build active file 2",
-                        "command": "/usr/bin/cpp",
-                        "args": [
-                                "-g",
-                                "-st=c++11",
-                                "${file}",
-                                "-o",
-                                "${fileDirname}/${fileBasenameNoExtension}"
-                        ],
-                        "options": {
-                                "cwd": "/usr/bin"
-                        },
-                        "problemMatcher": [
-                                "$gcc"
-                        ],
-                        "group": "build"
-                },
-                {
-                        "type": "shell",
-                        "label": "clang++ build active file 3",
-                        "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-                        "args": [
-                                "-g",
-                                "-std=c++11",
-                                "${file}",
-                                "-o",
-                                "${fileDirname}/${fileBasenameNoExtension}"
-                        ],
-                        "options": {
-                                "cwd": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
-                        },
-                        "problemMatcher": [
-                                "$gcc"
-                        ],
-                        "group": "build"
-                },
-                {
-                        "type": "shell",
-                        "label": "g++ build active file with option -g 4",
-                        "command": "/usr/bin/g++",
-                        "args": [
-                                "-g",
-                                "-std=c++11",
-                                "${file}",
-                                "-o",
-                                "${fileDirname}/${fileBasenameNoExtension}"
-                        ],
-                        "options": {
-                                "cwd": "/usr/bin"
-                        },
-                        "problemMatcher": [
-                                "$gcc"
-                        ],
-                        "group": "build"
-                }
-        ]
+  "version": "2.0.0",
+  "tasks": [{
+      "type": "shell",
+      "label": "g++ build active file 1",
+      "command": "/usr/bin/g++",
+      "args": [
+        "${file}",
+        "-std=c++11",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "cpp build active file 2",
+      "command": "/usr/bin/cpp",
+      "args": [
+        "-g",
+        "-st=c++11",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "clang++ build active file 3",
+      "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "g++ build active file with option -g 4",
+      "command": "/usr/bin/g++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    }
+  ]
 }
