@@ -1,6 +1,7 @@
 {
   "version": "2.0.0",
-  "tasks": [{
+  "tasks": [
+    {
       "type": "shell",
       "label": "g++ build active file 1",
       "command": "/usr/bin/g++",
@@ -80,7 +81,7 @@
     },
     {
       "type": "shell",
-      "label": "C/C++: g++.exe build active file",
+      "label": "C/C++: TDM-GCC g++.exe build active file",
       "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
       "args": [
         "-g",
@@ -97,9 +98,9 @@
       "group": "build"
     },
     {
-      "type": "shell",
-      "label": "C/C++: g++.exe build active file",
-      "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+      "type": "cppbuild",
+      "label": "C/C++: TDM-GCC CPP cpp.exe build active file",
+      "command": "C:\\TDM-GCC-64\\bin\\cpp.exe",
       "args": [
         "-g",
         "${file}",
@@ -107,12 +108,13 @@
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "C:\\TDM-GCC-64\\bin"
       },
       "problemMatcher": [
         "$gcc"
       ],
-      "group": "build"
+      "group": "build",
+      "detail": "compiler: C:\\TDM-GCC-64\\bin\\cpp.exe"
     }
   ]
 }
