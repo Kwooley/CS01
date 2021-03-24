@@ -115,25 +115,6 @@
       ],
       "group": "build",
       "detail": "compiler: C:\\TDM-GCC-64\\bin\\cpp.exe"
-    },
-    {
-      "type": "cppbuild",
-      "label": "C/C++: g++ build active file",
-      "command": "/usr/bin/g++",
-      "args": [
-        "-g",
-        "${file}",
-        "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": "build",
-      "detail": "compiler: /usr/bin/g++"
     }
   ]
 }
