@@ -1,0 +1,10 @@
+Mary	100	90
+Kathy	90 	90
+Rhona	100 100
+Elaine	90 	90
+Lorita	100	100
+Smith	100	90
+Maxim	90	90
+Chen	100	100
+Mike	100	100
+Nancy	90	90

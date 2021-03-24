@@ -1,0 +1,25 @@
+
+• The summary of the last week.
+
+    Chapter 4. Making Decisions
+        if/else statement
+        nested if 
+        if/else if statement
+        switch statement
+
+
+• Today's Goal
+    Discussion Topic:
+        Logical and Relational operators
+        The various forms of it statements
+        Switch statement
+
+    Quiz4-2 : Due: Next Monday
+            10 questiions, 2 attempts, 30mins time limit per each
+
+        - 10 minutes discusstion time with group members
+        - 3:50, We will take the Quiz 3-2
+   
+    chapter 5 : Loop and files
+        - While-loop
+        - do-while loop 

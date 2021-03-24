@@ -1,0 +1,114 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.zoomLevel": 0,
+		"better-comments.multilineComments": true,
+		"better-comments.highlightPlainText": true,
+		"better-comments.tags": [
+			{
+			  "tag": "!",
+			  "color": "#FF2D00",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "?",
+			  "color": "#3498DB",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "//",
+			  "color": "#82BCA1",
+			  "strikethrough": true,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "todo",
+			  "color": "#FF8C00",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			},
+			{
+			  "tag": "*",
+			  "color": "#98C379",
+			  "strikethrough": false,
+			  "backgroundColor": "transparent"
+			}
+		],
+		"files.associations": {
+			"ostream": "cpp",
+			"ios": "cpp",
+			"iostream": "cpp",
+			"iomanip": "cpp",
+			"cmath": "cpp",
+			"iosfwd": "cpp",
+			"vector": "cpp",
+			"istream": "cpp",
+			"bitset": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"*.tcc": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"unordered_map": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"fstream": "cpp",
+			"initializer_list": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"typeinfo": "cpp"
+		},
+		"C_Cpp.clang_format_fallbackStyle": 
+			"{ BasedOnStyle: Google, IndentWidth: 8, ColumnLimit: 0}"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "(lldb) Launch",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "enter program name, for example ${workspaceFolder}/a.out",
+				"args": [],
+				"stopAtEntry": false,
+				"cwd": "${workspaceFolder}",
+				"environment": [],
+				"externalConsole": false,
+				"MIMode": "lldb"
+			}
+		]
+	}
+}

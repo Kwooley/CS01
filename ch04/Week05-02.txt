@@ -1,0 +1,16 @@
+
+⬜️ Summary of the last class
+
+        Chapter 4. Making Decision.
+
+        4.4 if statement
+        4.5 if/else statement, nested if statement
+
+
+⬜️ Today's learning outcomes
+
+        4.6 if/else if statement
+        4.7 flag
+        4.8 logical operators
+                and, or, not 
+                &&, || , !

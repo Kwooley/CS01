@@ -14,13 +14,16 @@
     "environment": [],
     // "externalConsole": false,
     "externalConsole": true,
-    "osx": {
-      "MIMode": "lldb"
-    },
-    "windows": {
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:\\TDM-GCC-64\\bin\\gdb.exe"
-    },
+     "MIMode": "lldb",
+    // "preLaunchTask": "C/C++: g++ build active file"
+    // "preLaunchTask": "g++ build active file 1"
+    // "osx": {
+    //   "MIMode": "lldb"
+    // },
+    // "windows": {
+    //   "MIMode": "gdb",
+    //   "miDebuggerPath": "C:\\TDM-GCC-64\\bin\\gdb.exe"
+    // },
     // "preLaunchTask": "g++ build active file with option -g 4"
     // "preLaunchTask": "g++ build active file"
   }]

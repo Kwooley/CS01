@@ -1,0 +1,79 @@
+
+⬜️ Notice
+
+    . Welcome back. Good Morning. 
+    . [Midterm Notice] Wednesday, Apr 08. 08:00am ~ 11:59pm(13hours:59mins)
+        . Related Chapters : Chapter 1 ~ Chapter 6
+        . Problem Style : 
+            . Open Book without discussion.
+            . Programming, Short Essay
+        . Due to the limit of the online take-home exam,
+            . All answers must include the detail illustration of your program.
+                . Explanation of how to work + 
+                . Plenty of Test data sets + outputs (How does your program reacts when it takes the invalid input)
+                . Runtime Errors you met and how to fix it
+                    . If you do not have any (compile and runtime) error, you may be asked to have an interview to make another program some later.
+                    . This is important things you have to describe due to online exam.
+                . If you submit only the program code, it may not be graded.
+        . During the Exam, we will have two confer zoom time.
+            . 08:00 ~ 09:00 (optional)
+            . 12:00 ~ 13:00 (optional)
+            . Midterm link will be listed in Canvas.
+            . If you have a question at quiz time, joint the confer zoom and leave the message
+
+
+⬜️ Summary of the Last Class
+
+    . Functions.
+        - Function Prototype
+        - Return Type 
+        - Arguments(formal parameters) and Parameters(actual parameters)
+        - Local and Global Variables
+        - Static Variables
+
+⬜️ Today's Plan
+
+    Go to the Canvas -> "Module" -> Chapter 6.
+        You can find the link for the today's video clips.
+
+
+    . 6.13 Using the Reference Variables as Parameters (120 min)
+
+    [1] Watch the concepts of the Reference Variables ( 10 minutes) 
+        . 6.13 Using the reference variables as parameters
+        . https://youtu.be/H1-19RjOEGo
+    
+    [2] Discussion and Questions (5 minutes)
+
+    [3] Making the Exercise 6.13.1 (15 minutes)
+        two swap functions (with and without reference variables)
+
+    [4] Making the Exercise 6.13.2 (10 minutes)
+        getinput function (take the user inputs and then make them reusable in main function)
+
+    [5] Lab 6-7
+        (1) Watching the video (3 minutes)
+            . https://youtu.be/optVXZuPWDY
+
+        (2) make the Lab 6-7 and discussion (20 minutes)
+
+    [6] Lab 6-8
+        (1) Watching the video (3 minutes)
+            . https://youtu.be/xDWOWO5B0iY
+
+        (2) make the Lab 6-8 and discussion (15 minutes)
+    
+    [7] Lab 6-9
+        (1) Watching the video (3 minutes)
+            . https://youtu.be/BQga3R7O6lE
+
+        (2) make the Lab 6-9 and discussion (15 minutes)
+    
+
+    . 6.14 Overloading Functions ( 40 min)
+   [1] Watch the concepts of the Overloading Functions ( 7 minutes) 
+        . 6.14 Using the reference variables as parameters
+        . https://youtu.be/1IMpdBjytI0
+
+    [2] Lab 6-10
+       (1) make the Lab 6-9 and discussion (30 minutes) 

@@ -1,0 +1,19 @@
+
+⬜️ Summary of the last class
+
+
+    . Function
+        Terminolgies
+            Function Definition(Declaration)
+                - Function Header
+                - Function Body
+            
+            . Function Prototype
+                - You must place the function header before you use the funcion call.
+            . Arguments, Parameters
+                Arguments (Actual Parameters)
+                Parameters(Formal Parameters)
+            . Return Type, Return Values
+            . Void
+                a kind of Type ( null types)
+            

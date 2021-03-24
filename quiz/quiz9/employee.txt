@@ -1,0 +1,10 @@
+100000 Irma Williams 140000 Marketing March 3 2017
+100001 Maya Graham 499999 HR May 28 2019
+100002 Cynthia Meng 480000 Business November 19 2020
+100003 Ishi Aardvark 490000 Computer November 3 2020
+100005 McKenna Gumerson 100000 Computer February 11 2020
+100006 Hello World 100 Boots August 2 1997
+100007 Turtle Duck 39201 Computer June 30 2910
+100008 Zuko Zuko 58392 Fire January 10 2000
+100009 Laura Legg 100000 HR July 29 2004
+100010 Alyssa Chen 500000 Computer March 24 2004

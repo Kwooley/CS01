@@ -1,0 +1,59 @@
+
+⬜️ Summary of the Last Class
+
+        .7.6 [Lab 7-6] Insertion and Deletion.
+                . https://youtu.be/lLr5TItqwMg (5 minns)
+                . Lab time (30 mins)
+        
+        .7.6. [Lab 7-7] Substring
+                .https://youtu.be/UdGoPIiDD18 (5 mins)
+                . Lab time (30 mins)
+
+        .7.8. Array as Function Arguments.
+                . https://youtu.be/62chBGoql_Q (10 mins)
+                . Lab time (40 mins)
+
+⬜️ Notice
+        . Apr 27. Programming Quiz [ Quiz #4]
+                . Chapter 5,6,7
+   
+⬜️ Today's Plan
+
+    Go to the Canvas -> "Module" -> Chapter 7.
+        You can find the link for the today's video clips.
+
+    .7.9. Two Dimensional Arrays. 
+                . https://youtu.be/ebjaBrjqOBI (15 mins)
+                . Discussion (10 mins)
+            Exercise 7.10.1(66page, 08:20 sec in Video)
+                . Checkout the given example
+                . Using the example code, Make the program that finds the minimum value in all elememts
+            Exercise 7.10.2(67page, 08:40 sec in Video)
+                . Checkout the given example
+                . Using the example code, Make the program that gets summation of the following elements
+                    M[0][0], M[0][1], M[0][2],M[0][3],M[0][4]
+                    M[1][0], M[1][1], M[1][2],M[1][3]
+                    M[2][0], M[2][1], M[2][2]
+                    M[3][0], M[3][1]
+                    M[4][0]
+            Exercise 7.10.3(68page, 10:10 sec in Video)
+                . Checkout the given example
+                . Using the example code, 
+                    Make the program that finds the column that has the greatest summation among the columns
+                
+            Exercise 7.10.4(69page, 11:00 sec in Video)
+                . Checkout the given example
+                . Using the example code, 
+                    Make the program that finds the character string that has the given user character.
+
+                
+    .7.9. Two Dimensional Arrays. [Lab 7-9]
+                . https://youtu.be/X6qdLYqv9fU (3 mins)
+                . Lab Time (30 mins)
+    .7.9. Two Dimensional Arrays. [Lab 7-10]
+                . https://youtu.be/bu4Ab1UN_m0 (2 mins)
+                . Discussion (30 mins)
+       
+   
+
+    

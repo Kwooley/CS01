@@ -1,0 +1,69 @@
+
+⬜️ Summary of the Last Class
+
+    .  Midterm
+        Answer Files : https://github.com/Kwooley/CS01/tree/master/midterm
+        
+    
+    . 7.1 Array Introduction 
+
+        [1] Watch the concepts of Array ( 4 minutes) 
+            . https://youtu.be/76KK-ZFPueA
+    
+    . 7.2 and 7.3 Accessing Elements and Bound Checking.
+        [1] Watch the concepts of Array ( 6 minutes) 
+            . https://youtu.be/sr1qcuGnW20
+        [2] Discussion 1 (Bound Checking: Try to access out of index range )
+            . Array element address calculation.
+
+    . 7.4 Array Initialization
+    . 7.5 Range-based for-loop.
+        [1] Watch the video clip for 7.4 and 7.5 (8 minutes)
+            https://youtu.be/MRnBtFC_3Q8
+        [2] Discussion 2 ( int number[] = {};)
+            Discussion 3 ( Taking the user input using the Range-base for loop)
+     . 7.6 Processing Array Contents
+
+        [1] Watching the video (9 minutes) 
+            . https://youtu.be/2-s8Te_ThV8
+        
+        [2] Discussion 4. (find the min and max with the index)
+            Discussion 5. (Compare the two arrays whether those are same or not )
+    . 7.6 [Lab 7-1] Bubble
+            . https://youtu.be/KrG0hUVeBjg (4mins)
+            . Lab time (20 mins)
+
+⬜️ Today's Plan
+
+    Go to the Canvas -> "Module" -> Chapter 7.
+        You can find the link for the today's video clips.
+
+    . For BreakRoom 1
+        . https://docs.google.com/document/d/1mZ_9-lF0ta9w8n2kd-TEib-jLNJc5PbhgKz1BMmFeVU/edit?usp=sharing
+
+
+    . For BreakRoom 2
+
+    . 7.6 [Lab 7-2] Masking
+            . https://youtu.be/BTN_quc2yYA (3mins)
+            . Lab time (20 mins)
+
+    . 7.6 [Lab 7-3] Folding
+            . https://youtu.be/CkR02nk81lw (2mins)
+            . Lab time (20 mins)
+    
+    . 7.6 [Lab 7-5] Shift Left
+            . https://youtu.be/lyrttIL31L8 (3mins)
+            . Lab time (20mins)
+    
+
+    For the Next Class on Wed.
+    .7.6 [Lab 7-6] Insertion and Deletion.
+            . https://youtu.be/lLr5TItqwMg (4 minns)
+            . Lab time (30 mins)
+    
+    .7.6. [Lab 7-7] Substring
+            .https://youtu.be/UdGoPIiDD18 (3mins)
+            . Lab time (30 mins)
+
+    
