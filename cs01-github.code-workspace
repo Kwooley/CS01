@@ -89,10 +89,10 @@
 			"sstream": "cpp",
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
-			"typeinfo": "cpp"
+			"typeinfo": "cpp",
+			"chrono": "cpp"
 		},
-		"C_Cpp.clang_format_fallbackStyle": 
-			"{ BasedOnStyle: Google, IndentWidth: 8, ColumnLimit: 0}"
+		"C_Cpp.clang_format_fallbackStyle": "{BasedOnStye:Google, IndentWidth:4, ColumnLimit:0}"
 	},
 	"launch": {
 		"version": "0.2.0",

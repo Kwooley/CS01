@@ -24,7 +24,7 @@ int main() {
         cout << str1 << endl;
         str1.append(str3, 0, 8);
         cout << str1 << endl;
-        str1.append(str3, 7);
+        str1.append(str3, 8);
         cout << str1 << endl;
 
         // * assign()

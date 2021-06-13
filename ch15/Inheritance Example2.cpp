@@ -58,6 +58,10 @@ int main() {
         SalariedEmployee s("John", "001", 100);
         HourlyEmployee h("Doe", "101", 50, 10);
 
+        HourlyEmployee h1;
+
+        h1.getName();
+
         s.printCheck();
         h.printCheck();
 }

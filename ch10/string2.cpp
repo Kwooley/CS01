@@ -51,7 +51,7 @@ int	main()
 
 // ------------------------------------------------------------------
 	// compare
-	cout << "------------------- Exmaple of compare() ---------------------------\n";
+	cout << "------------------- Example of compare() ---------------------------\n";
 	strobj2.assign(strobj1);
 	cout << "strobj1: " << strobj1 << " strobj2: " << strobj2 << endl;
 	cout << strobj1.compare(strobj2) << endl;

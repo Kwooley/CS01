@@ -23,4 +23,8 @@ int	main()
 	else
 		cout << strobj3 << endl;
 
+
+	for(int i=0;i<strobj1.length(); i++)
+		cout << strobj1[i] << endl;
+
 }
