@@ -24,8 +24,8 @@ int binarySearch(int array[], int N, int target)
     int first, last, mid;
 
     first = 0;
-    last = N;
-    while ( first < last) 
+    last = N-1;
+    while ( first <= last) 
     {
         mid = (first + last) / 2;
         if ( array[mid] == target)
