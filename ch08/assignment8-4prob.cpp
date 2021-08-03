@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 const int 	MAX_LEN = 20;
@@ -9,7 +10,9 @@ struct Students {
 	double 	scores[NUM_SCORES];
 };
 
-void bubbleSort(Students [], int );
+void bubbleSortbyID(Students [], int );
+void bubbleSortbyName(Students [], int );
+void bubbleSortbyScores(Students [], int );
 void makeStudents(Students [], int );
 void printStudents(Students [], int );
 
@@ -21,37 +24,49 @@ int main()
 	makeStudents(s, N);
 	cout << "Initial Student's Struct Array \n";
 	printStudents(s, N);
-	bubbleSort(s, N);
-	cout << "After Sorting \n";
+	bubbleSortbyID(s, N);
+	cout << "After Sorting by ID \n";
+	printStudents(s, N);
+	bubbleSortbyName(s, N);
+	cout << "After Sorting by Name \n";
+	printStudents(s, N);
+	bubbleSortbyScores(s, N);
+	cout << "After Sorting by Scores \n";
 	printStudents(s, N);
 }
 
-void bubbleSort(Students s[], int N)
+void bubbleSortbyID(Students s[], int N)
 {
-	int min, index;
-	for(int i=0; i < N-1; i++)
-	{
-		for(int j=0; j<N-i-1; j++)
-		{
-			if ( s[j].sid > s[j+1].sid)
-				swap(s[j], s[j+1]);
-		}
-		cout << "Bubble Sort Stage " << i << endl;
-		printStudents(s, N);	
-	}
+}
+
+void bubbleSortbyName(Students s[], int N)
+{
+}
+
+void bubbleSortbyScores(Students s[], int N)
+{
 }
 
 void makeStudents(Students s[], int N)
 {
+	ifstream ifs;
+	ifs.open("students.txt");
+	if ( ifs.fail())
+	{
+		cerr << "File Open Error\n";
+		exit(0);
+	}
+
 	for(int i=0;i<N;i++)
 	{
-		cout << "Enter the student's ID(integer) " ;
-		cin >> s[i].sid;
-		cout << "Enter the student's Name ";
-		cin >> s[i].sname;
-		cout << "Enter the student's 3 Scores ";
+		ifs >> s[i].sid >> s[i].sname;
 		for(int j=0; j<NUM_SCORES; j++)
-			cin >> s[i].scores[j] ;
+			ifs >> s[i].scores[j] ;
+		if ( ifs.fail() )
+		{
+			cerr << "File Read Error\n";
+			exit(0);
+		}
 	}
 }
 

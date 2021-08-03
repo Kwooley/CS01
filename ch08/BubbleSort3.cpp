@@ -6,8 +6,8 @@ const int 	MAX_LEN = 20;
 const int 	NUM_SCORES = 3;
 struct Students {
 	int 	sid;
-	char 	sname[20];
-	double 	scores[3];
+	char 	sname[MAX_LEN];
+	double 	scores[NUM_SCORES];
 };
 
 void bubbleSort(Students [], int );
