@@ -11,9 +11,7 @@ struct Students {
 };
 
 void bubbleSortbyID(Students [], int );
-void bubbleSortbyName(Students [], int );
-void bubbleSortbyScores(Students [], int );
-double sumScores(double []);
+int binarySearch(Students [], int, int);
 void makeStudents(Students [], int );
 void printStudents(Students [], int );
 
@@ -21,6 +19,7 @@ int main()
 {
 	const int 	N = 10;
 	Students 	s[N];
+	int 	target, foundidx;
 
 	makeStudents(s, N);
 	cout << "Initial Student's Struct Array \n";
@@ -28,60 +27,27 @@ int main()
 	bubbleSortbyID(s, N);
 	cout << "After Sorting by ID \n";
 	printStudents(s, N);
-	bubbleSortbyName(s, N);
-	cout << "After Sorting by Name \n";
-	printStudents(s, N);
-	bubbleSortbyScores(s, N);
-	cout << "After Sorting by Scores \n";
-	printStudents(s, N);
+
+	cout << "Enter the student's ID you want to retrieve : ";
+	cin >> target;
+	foundidx = binarySearch(s, N, target);
+	if ( foundidx == -1)
+		cout << " The student's ID " << target << " is not found \n";
+	else 
+	{
+		cout << " The student's name " << s[foundidx].sname << endl << " Scores ";
+		for (int i=0; i< NUM_SCORES; i++)
+			cout << s[foundidx].scores[i] << "\t" ;
+		cout << endl;
+	}
+	
 }
 
 void bubbleSortbyID(Students s[], int N)
 {
-	int min, index;
-	for(int i=0; i < N-1; i++)
-	{
-		for(int j=0; j<N-i-1; j++)
-		{
-			if ( s[j].sid > s[j+1].sid)
-				swap(s[j], s[j+1]);
-		}
-	}
 }
-
-void bubbleSortbyName(Students s[], int N)
+int binarySearch(Students s[], int N, int target)
 {
-	int min, index;
-	for(int i=0; i < N-1; i++)
-	{
-		for(int j=0; j<N-i-1; j++)
-		{
-			if ( strcmp(s[j].sname, s[j+1].sname) > 0)
-				swap(s[j], s[j+1]);
-		}
-	}
-}
-
-void bubbleSortbyScores(Students s[], int N)
-{
-	int min, index;
-	for(int i=0; i < N-1; i++)
-	{
-		for(int j=0; j<N-i-1; j++)
-		{
-			if ( sumScores(s[j].scores) > sumScores(s[j+1].scores))
-				swap(s[j], s[j+1]);
-		}
-	}
-}
-double sumScores(double scores[])
-{
-	int sum=0;
-	for(int i=0; i<NUM_SCORES; i++)
-	{
-		sum += scores[i];
-	}
-	return sum;
 }
 
 void makeStudents(Students s[], int N)
