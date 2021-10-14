@@ -1,0 +1,12 @@
+CS02	
+5
+2001	Nick	A 	99.0
+2002 	Doe	B 	89.0
+2003	Mike 	C 	75.0
+1003	Bill	A 	99.0 
+1004	Jim	A 	99.0 
+CNT02
+3
+1006 	Kate	D	69.5
+1007 	Jan	W	0.0
+1008	Amy	C 	78.5  
