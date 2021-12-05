@@ -3,14 +3,16 @@
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
-  "configurations": [{
+  "configurations": [
+    {
     "name": "g++ build and debug active file",
     "type": "cppdbg",
     "request": "launch",
     "program": "${fileDirname}/${fileBasenameNoExtension}",
-    "args": [],
+    "args": ["< data.in"],
     "stopAtEntry": false,
-    "cwd": "${workspaceFolder}",
+    "cwd": "${workspaceFolder}/ch09",
+    //"cwd": "'${workspaceFolder}'",
     "environment": [],
     // "externalConsole": false,
     "externalConsole": true,

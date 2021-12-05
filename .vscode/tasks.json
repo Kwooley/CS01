@@ -28,7 +28,7 @@
       "command": "/usr/bin/cpp",
       "args": [
         "-g",
-        "-st=c++11",
+        "-std=c++11",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
@@ -81,7 +81,7 @@
     },
     {
       "type": "shell",
-      "label": "C/C++: TDM-GCC g++.exe build active file",
+      "label": "TDM-GCC g++.exe build active file 5",
       "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
       "args": [
         "-g",
@@ -99,7 +99,7 @@
     },
     {
       "type": "cppbuild",
-      "label": "C/C++: TDM-GCC CPP cpp.exe build active file",
+      "label": "C/C++: TDM-GCC CPP cpp.exe build active file 6",
       "command": "C:\\TDM-GCC-64\\bin\\cpp.exe",
       "args": [
         "-g",
@@ -115,6 +115,23 @@
       ],
       "group": "build",
       "detail": "compiler: C:\\TDM-GCC-64\\bin\\cpp.exe"
+    },
+    {
+      "label": "Make buildall",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "buildall"
+      ],
+      "options": {
+        // "cwd": "${workspaceFolder}/ch13/Rectangle Version 1" // does not support any space
+        "cwd": "${workspaceFolder}/ch13/rv1"
+      },
+      "problemMatcher": [
+          "$gcc"
+      ],
+      "group": "build"
     }
+
   ]
 }

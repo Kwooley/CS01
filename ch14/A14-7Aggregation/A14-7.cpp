@@ -19,7 +19,7 @@ int main()
 		exit(0);
 	}
 
-	for (int i = 0; i < N; i++)
+	for (int i = 0; i < Student::getNumStudents(); i++)
 	{
 		ifs >> s[i];
 		cout << s[i] << endl;

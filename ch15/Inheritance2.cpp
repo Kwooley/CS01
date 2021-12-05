@@ -43,7 +43,7 @@ public:
 	int getHeight() { return height; }
 	int perimeter()
 	{
-		return perimeter() * 4 * height;
+		return Rectangle::perimeter() + 4 * height;
 	}
 };
 
@@ -53,7 +53,7 @@ int main()
 	cout << "The area of Square: " << s.getArea() << endl;
 	cout << "The Perimeter of Square: " << s.perimeter() << endl;
 
-	Cube c(10, 20, 30);
-	cout << "The Volume of Cube: " << c.getArea() << endl;
-	cout << "The Perimeter of Square: " << c.perimeter() << endl;
+	Cube c(20, 20, 30);
+	cout << "The Volume of Cube: " << c.getVolume() << endl;
+	cout << "The Perimeter of Cube: " << c.perimeter() << endl;
 }

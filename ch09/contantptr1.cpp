@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printArray(int const * , int);
+void printArray(int *const, int);
 int main()
 {
     const int N = 10;
@@ -10,10 +10,9 @@ int main()
     printArray(array, N);
 }
 
-void printArray(int const * n, int N)
+void printArray(int *const n, int N)
 {
-    for(int i=0;i<N;i++)
-        cout << *(n+i) << "\t";
+    for (int i = 0; i < N; i++)
+        cout << *(n + i) << "\t";
     cout << endl;
-
 }

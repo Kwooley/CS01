@@ -6,14 +6,18 @@ class Base
 {
 public:
 	virtual void functionA(int arg) const
-	{ cout << "This is Base::functionA" << endl; }
+	{
+		cout << "This is Base::functionA" << endl;
+	}
 };
 
 class Derived : public Base
 {
 public:
 	virtual void functionA(int arg) const override
-	{ cout << "This is Derived::functionA" << endl; }
+	{
+		cout << "This is Derived::functionA" << endl;
+	}
 };
 
 int main()

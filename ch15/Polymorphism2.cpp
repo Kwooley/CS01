@@ -12,7 +12,7 @@ public:
 		width = a;
 		height = b;
 	}
-	int area()
+	int virtual area()
 	{
 		cout << "Parent class area :" << endl;
 		return 0;
@@ -48,18 +48,21 @@ int main()
 	Shape *shape;
 	Rectangle rec(10, 7);
 	Triangle tri(10, 5);
+	int area;
 
 	// store the address of Rectangle
 	shape = &rec;
 
 	// call rectangle area.
-	shape->area();
+	area = shape->area();
+	cout << "Return value is :  " << area << endl;
 
 	// store the address of Triangle
 	shape = &tri;
 
 	// call triangle area.
-	shape->area();
+	area = shape->area();
+	cout << "Return value is :  " << area << endl;
 
 	return 0;
 }

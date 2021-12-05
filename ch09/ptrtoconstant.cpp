@@ -13,7 +13,7 @@ int main()
 
 void printValue(const int *n)
 {
-    const int N=10;
+    const int N=100;
     cout << *n << endl;
     n = &N;
     cout << *n << endl;
