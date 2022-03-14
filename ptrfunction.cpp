@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void getnumber(int *);
+void getNumber(int *);
 int main()
 {
 	int number;
 
-	getnumber(&number);
+	getNumber(&number);
 	cout << number << endl;
 }
 
-void getnumber(int *input)
+void getNumber(int *input)
 {
 	cout << "Enter your input: ";
 	cin >> *input;
