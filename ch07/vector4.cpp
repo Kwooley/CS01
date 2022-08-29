@@ -44,7 +44,8 @@ An iterator that points to the first of the newly inserted elements.
 #include <vector>
 using namespace std;
 
-int main() {
+int main()
+{
         int insertnum = 50;
         int flag = 1;
 
@@ -57,10 +58,10 @@ int main() {
 
         // Sort
         /*
-	The range used is [first,last), 
-	which contains all the elements 
-	between first and last, including the element pointed by first 
-	but not the element pointed by last.
+        The range used is [first,last),
+        which contains all the elements
+        between first and last, including the element pointed by first
+        but not the element pointed by last.
 */
         sort(number.begin(), number.end());
         for (int val : number)
@@ -70,14 +71,17 @@ int main() {
         // Insert an element to the vector
         // Find the position and use the membership function insert()
         // end() : An iterator to the element past the end of the sequence.
-        for (iter = number.begin(); iter != number.end(); iter++) {
-                if (insertnum < *iter) {
+        for (iter = number.begin(); iter != number.end(); iter++)
+        {
+                if (insertnum < *iter)
+                {
                         number.insert(iter, insertnum);
                         flag = 0;
                         break;
                 }
         }
-        if (flag) {
+        if (flag)
+        {
                 number.insert(number.end(), insertnum);
         }
         for (int val : number)
@@ -86,6 +90,7 @@ int main() {
 
         // std::find std::distance
         // Use the std::find function template and insert() membership function
+        // when we find the exact same number as the one of tha array.
         iter = find(number.begin(), number.end(), insertnum);
         int indexnumber = distance(number.begin(), iter);
         cout << "Insert position is : " << indexnumber << endl;
