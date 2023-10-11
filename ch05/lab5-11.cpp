@@ -26,6 +26,7 @@ int main()
 			if (p % i == 0)
 				break;
 		if (i > (p / 2))
-			cout << " Prime number : " << p << endl;
+			cout << p << "\t";
 	}
+	cout << endl;
 }

@@ -1,4 +1,10 @@
 {
-    "window.zoomLevel": 0,
-    "editor.fontSize": 16
+    "window.zoomLevel": -1,
+    "editor.fontSize": 16,
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "fstream": "cpp"
+    }
 }

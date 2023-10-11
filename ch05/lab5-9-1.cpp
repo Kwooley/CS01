@@ -1,18 +1,19 @@
-#include        <iostream>
-#include        <iomanip>
-#include        <cmath>
-using   namespace       std;
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
 
 int main()
 {
 
-    int i, number, min ;
+    int i, number, max;
 
-    for(i=0; i<10; i++){
-        cout << "Enter your input \n";
+    for (i = 0; i < 10; i++)
+    {
+        cout << "Enter your input: ";
         cin >> number;
-        if ( (i==0) || ( min > number) )
-            min = number;
+        if ((i == 0) || (max > number))
+            max = number;
     }
-    cout << "The min value is " << min << endl;
+    cout << "The max value is " << max << endl;
 }

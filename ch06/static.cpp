@@ -1,18 +1,16 @@
-#include	<iostream>
-using	namespace	std;
+#include <iostream>
+using namespace std;
 
-void	myfunction(void);
-int	main()
+void myfunction(void);
+int main()
 {
 	myfunction();
 	myfunction();
 }
-void	myfunction()
+void myfunction()
 {
-	static int number=10;
-	int		i = 0;
+	static int number = 10;
 
-	i++;
 	number += 10;
-	cout << " Call Number " << i <<" "<< number << endl;
+	cout << number << endl;
 }

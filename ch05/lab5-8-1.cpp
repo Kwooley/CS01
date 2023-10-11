@@ -14,20 +14,21 @@
 #include <iostream>
 using namespace std;
 
-int main() 
+int main()
 {
-        int i, flag = 1;
+        int i;
         int begin, end;
 
         //* Input Validation
-        do {
+        do
+        {
                 cout << "Enter the range. [0..1300]  \n";
                 cin >> begin >> end;
         } while ((begin < 0) || (end > 1300) || (begin > end));
 
-        for (i = 0; pow(2, i) < end; i++) {
+        for (i = 0; pow(2, i) < end; i++)
+        {
                 if (pow(2, i) > begin)
                         cout << "The power number of 2 to " << i << " is " << pow(2, i) << endl;
         }
-        
 }
